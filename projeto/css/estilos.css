@@ -1,0 +1,178 @@
+*{
+	
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #222;
+}
+
+
+nav{
+	background-color: #000;
+	min-height: 557px;
+	
+}
+
+ #letreiro_1, #letreiro_2{
+	 
+	 margin-top: 100px;
+	 color: white;
+ }
+
+ 
+ 
+#principal{
+	
+	background-color: #CCC;
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+
+#principal_index{
+	
+	background-color: #000;
+	margin-top: 50px;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+#aside-esq, #aside-dir{
+
+	position relative;
+	min-height: 557px;
+	background-size: 100%;
+	margin-top: -20px;
+	margin-bottom: -20px;
+}	
+
+
+#aside-esq{
+	
+	background-image: url("../img/bmw1.jpg");
+}
+
+
+#aside-dir{
+	
+	background-image: url("../img/bmw2.jpg");
+}
+
+#aside-esq:hover, #aside-dir:hover{
+	
+	border: 3x;
+	border-style: inset;
+	border-color: black;
+	box-shadow: 0 0 20px #FF0000;
+	opacity: 0.3;
+}
+
+
+footer{
+	
+	position:relative;
+	background-color: #222;
+	color: white;
+	height: 50px;
+}
+
+
+
+.imagem-comprar{
+	width: 180px;
+	height: 180px;
+}
+
+#info-carro{
+	
+	border: 1;
+	border: solid;
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-bottom: 10px;
+	width: 430px;
+}
+
+textarea{
+	color: #999;
+}
+
+#form_vender{
+	padding-left: 30px;
+}
+
+#imagem-negoc{
+	
+	 width: 750px; height: 490px; 
+	 margin-right: 10px;
+	float: right;
+}
+
+
+.navbar-inverse .navbar-brand:hover,
+.navbar-inverse .navbar-brand:focus {
+  color: #fff;
+  background-color: #000;
+}
+
+
+.navbar-brand {
+	margin-right: 15px;
+}
+
+
+.input_login {
+	border: none;
+	margin-bottom: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.hover_escuro:hover{
+	
+	background-color: black;
+}
+
+.miniatura{
+	
+	width: 60px;
+	height: 60px;
+	border: 1px solid black;
+	margin-top: 5px;
+	margin-right: 20px;
+	background-size: 180%;
+	background-repeat: no-repeat;
+}
+
+#div_anuncio{
+	
+	height: 520px;
+	border: 2px solid white;
+	padding: 10px;
+	padding-left: 25px;
+}
+
+
+#img_anuncio{
+	
+	width: 400px;
+	height: 450px;
+	background-size: 100%;
+	background-repeat: no-repeat;
+}
+
+#borda_info_anuncio{
+	
+	border: 1px solid #333;
+}
+
+legend{
+
+	margin-top: 20px;
+}
+
+.fundo_escuro{
+	background-color: black;
+}
